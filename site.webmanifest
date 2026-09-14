@@ -1,11 +1,16 @@
 {
+  "id": "/Nano-Perfil/",
   "name": "Mariano González — Diseño de comunicación corporativa",
   "short_name": "Nano.",
   "description": "Traduzco la estrategia, la cultura y la reputación de una empresa en piezas que su gente entiende y su mercado reconoce.",
-  "start_url": "/",
+  "lang": "es-CO",
+  "dir": "ltr",
+  "start_url": "/Nano-Perfil/",
+  "scope": "/Nano-Perfil/",
   "display": "standalone",
   "background_color": "#0E0E10",
   "theme_color": "#0E0E10",
+  "categories": ["design", "business", "portfolio"],
   "icons": [
     {
       "src": "favicon-dark-192.png",
@@ -20,16 +25,18 @@
       "purpose": "any"
     },
     {
-      "src": "favicon-light-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "favicon-light-512.png",
+      "src": "favicon-dark-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "og-image.jpg",
+      "sizes": "1200x630",
+      "type": "image/jpeg",
+      "form_factor": "wide"
     }
   ]
 }

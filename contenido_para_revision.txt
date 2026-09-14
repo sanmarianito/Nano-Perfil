@@ -10,14 +10,14 @@ PARTE 1: LANDING DE PRESENTACIÓN PRINCIPAL (INDEX.HTML)
 ================================================================================
 
 [INDEX - META & TITULO SITO]
-Título de pestaña: Mariano González — Diseño de comunicación corporativa
-Descripción web (SEO / Google / Compartidos): Mariano González — Diseño de comunicación corporativa. Cultura, reputación y marca. 23 años de trayectoria, 16 dentro de una multinacional de telecomunicaciones. Medellín, Colombia.
-Descripción social (Open Graph / WhatsApp / LinkedIn): Traduzco la estrategia, la cultura y la reputación de una empresa en piezas que su gente entiende y su mercado reconoce.
+Título de pestaña: Mariano González — Diseño visual de comunicación corporativa
+Descripción web (SEO / Google / Compartidos): Mariano González — Diseño de comunicación corporativa. Cultura, reputación y marca. 20 años de trayectoria profesional, 16 de ellos en una multinacional de telecomunicaciones. Medellín, Colombia.
+Descripción social (Open Graph / WhatsApp / LinkedIn): Convierto lo que una empresa quiere decir en piezas que su gente entiende y su mercado reconoce.
 
 --------------------------------------------------------------------------------
 [INDEX - ENCABEZADO / HEADER]
 Nombre: Mariano González
-Rol / Especialidad: Diseño de comunicación corporativa
+Rol / Especialidad: Diseño visual de comunicación corporativa
 Ubicación: Medellín, Colombia · Remoto e híbrido
 
 --------------------------------------------------------------------------------
@@ -25,10 +25,10 @@ Ubicación: Medellín, Colombia · Remoto e híbrido
 Pie de foto: Mariano González · Diseñador Gráfico · Medellín
 Etiqueta de estado: Diseñador Gráfico
 Titular principal: Mariano González
-Disciplinas: Diseño Corporativo · Cultura · Reputación · Marca · Web
+Disciplinas: Diseño Visual Corporativo · Cultura · Reputación · Marca · Web
 
 Texto intro / Lead:
-Traduzco la estrategia, la cultura y la reputación de una empresa en contenidos visuales que su gente entiende y su mercado reconoce. 20 años de trayectoria, 16 de ellos dentro de una multinacional de telecomunicaciones.
+Convierto la estrategia y la cultura de una empresa en piezas que su gente entiende y su mercado reconoce. 20 años de oficio, 16 de ellos dentro de una multinacional de telecomunicaciones.
 
 Botones de enlace principales:
 - CV -> (Hoja de vida completa)
@@ -39,38 +39,38 @@ Botones de enlace principales:
 --------------------------------------------------------------------------------
 [INDEX - SECCIÓN PERFIL]
 Ceja: Perfil
-Titular H2: El diseño no es decoración. Es cómo se explica la empresa.
+Titular H2: El diseño es la forma en que una empresa se explica.
 
 Párrafo 1:
-Durante 16 años fui responsable de la comunicación visual corporativa de una multinacional de telecomunicaciones en Colombia. Cubrí los tres frentes que casi nunca coinciden en un mismo perfil: llevar la estrategia y la cultura a una planta de más de 4.000 empleados, sostener la reputación institucional ante públicos externos —incluidos los informes anuales y de sostenibilidad— y trabajar con el equipo de marca en las campañas comerciales de producto.
+Durante 16 años llevé la comunicación visual corporativa de una multinacional de telecomunicaciones en Colombia. Ahí hice tres cosas que rara vez quedan en manos de la misma persona: bajar la estrategia y la cultura a una planta de más de 4.000 empleados repartidos por todo el país, sostener la reputación institucional ante públicos externos (ahí entran los informes anuales y de sostenibilidad) y acompañar al equipo de marca en las campañas comerciales de producto.
 
 Párrafo 2:
-Lo que ofrezco no es una lista de piezas: es criterio para decidir qué debe comunicar cada una y a quién, más la capacidad de ejecutarla al nivel que exige una compañía grande —cadenas de aprobación largas, plazos fijos y cero margen de error—. Respondo por el proyecto hasta el archivo final.
+Sé decidir qué comunica cada pieza y a quién, y sé sacarla al ritmo que exige una compañía grande: cadenas de aprobación largas, fechas que no se mueven y ningún margen de error. Respondo por el proyecto hasta el archivo final.
 
-Credenciales académicas destacadas:
+Credenciales académicas destacadas (COMPLETAR CON CURSOS Y CONOCIMIENTOS):
 - 2018 — 2019: Máster en Diseño Web Multidispositivo · ESdesign, Escuela Superior de Diseño de Barcelona
 - 2006: Diseñador Gráfico, profesional universitario · Universidad Pontificia Bolivariana
 
 --------------------------------------------------------------------------------
 [INDEX - SECCIÓN TRES FRENTES / SERVICIOS]
 Ceja: Servicios
-Titular H2: Tres frentes, una sola lógica.
-Descripción: Cada frente resuelve un problema distinto y lo compra un área distinta. Trabajarlos por separado es lo que rompe la coherencia de una compañía.
+Titular H2: Tres frentes que se piensan juntos.
+Descripción: Cada frente resuelve un problema distinto y lo contrata un área distinta. Cuando cada uno va por su lado, la empresa termina hablando con tres voces.
 
 Frente 1:
 - Título: Cultura y público interno
-- Descripción: Campañas de cultura, transformación y gestión del cambio; clima y bienestar; onboarding; newsletters internos y presentaciones ejecutivas para comité y junta. Que la estrategia llegue a toda la organización y se entienda.
-- Quien lo compra: Comunicación interna · Gestión humana
+- Descripción: Campañas de cultura, transformación y gestión del cambio; clima y bienestar; onboarding; newsletters internos y presentaciones ejecutivas para comités y junta. Para que la estrategia llegue a toda la organización y se entienda.
+- Quién lo compra: Comunicación interna · Gestión humana
 
 Frente 2:
 - Título: Reputación e institucional
-- Descripción: Informes anuales, de gestión y de sostenibilidad, en documento y en versión web navegable. Sistemas de identidad corporativa, manuales de marca, iconografía y lineamientos que sostienen la coherencia ante públicos externos.
-- Quien lo compra: Comunicaciones · Sostenibilidad · Secretaría General
+- Descripción: Informes anuales, de gestión y de sostenibilidad, en documento y en versión web navegable. Sistemas de identidad corporativa, manuales de marca, iconografía y lineamientos para que todo lo que sale de la empresa se reconozca como suyo.
+- Quién lo compra: Comunicaciones · Sostenibilidad · Secretaría General · Gobierno Corporativo
 
 Frente 3:
 - Título: Marca y mercadeo
-- Descripción: Campañas comerciales junto a equipos de marca: concepto y key visual, adaptación multicanal, social media, landing pages y email marketing. Del documento impreso a la experiencia digital sin intermediarios.
-- Quien lo compra: Marca · Mercadeo · Producto
+- Descripción: Campañas comerciales junto a equipos de marca: concepto y key visual, adaptación multicanal, social media, landing pages y email marketing. Del archivo para imprenta al HTML, sin intermediarios.
+- Quién lo compra: Marca · Mercadeo · Producto · Negocio
 
 Modalidades de contratación:
 - Acompañamiento continuo
@@ -98,7 +98,7 @@ Datos de contacto:
 --------------------------------------------------------------------------------
 [INDEX - PIE DE PÁGINA / FOOTER]
 - © 2026 Mariano González
-- Diseño Corporativo · Cultura · Reputación · Marca
+- Diseño Gráfico Corporativo · Cultura · Reputación · Marca
 
 
 ================================================================================
@@ -106,8 +106,8 @@ PARTE 2: HOJA DE VIDA COMPLETA (CV.HTML)
 ================================================================================
 
 [CV - META & TÍTULO PESTAÑA]
-Título de pestaña: Hoja de vida — Mariano González | Diseño de comunicación corporativa
-Descripción web: Hoja de vida de Mariano González — Diseño de comunicación corporativa. 23 años de trayectoria, cifras de 2025, formación y proyectos seleccionados. Medellín, Colombia.
+Título de pestaña: Hoja de vida — Mariano González | Diseño visual de comunicación corporativa
+Descripción web: Hoja de vida de Mariano González — Diseño visual de comunicación corporativa. 20 años de oficio, cifras de 2025, formación y proyectos seleccionados. Medellín, Colombia.
 
 --------------------------------------------------------------------------------
 [CV - ENCABEZADO & HERO]
@@ -126,16 +126,16 @@ Datos de contacto rápidos:
 --------------------------------------------------------------------------------
 [CV - SECCIÓN PERFIL]
 Ceja: Perfil
-Titular H2: El diseño no es decoración. Es cómo se explica la empresa.
+Titular H2: El diseño es la forma en que una empresa se explica.
 
 Párrafo 1:
-Traduzco la estrategia, la cultura y la reputación de una empresa en piezas que su gente entiende y su mercado reconoce.
+Convierto la estrategia y la cultura de una empresa en piezas que su gente entiende y su mercado reconoce.
 
 Párrafo 2:
-Durante 16 años fui responsable de la comunicación visual corporativa de la operación colombiana de una multinacional de telecomunicaciones. Cubrí los tres frentes que casi nunca coinciden en un mismo perfil: llevar la estrategia y la cultura a una planta de más de 4.000 empleados, sostener la reputación institucional ante públicos externos —incluidos los informes anuales y de sostenibilidad— y trabajar con el equipo de marca en las campañas comerciales de producto.
+Durante 16 años llevé la comunicación visual corporativa de la operación colombiana de una multinacional de telecomunicaciones. Ahí hice tres cosas que rara vez quedan en manos de la misma persona: bajar la estrategia y la cultura a una planta de más de 4.000 empleados, sostener la reputación institucional ante públicos externos (ahí entran los informes anuales y de sostenibilidad) y acompañar al equipo de marca en las campañas comerciales de producto.
 
 Párrafo 3:
-Aporto criterio para decidir qué debe comunicar cada pieza y a quién, más la capacidad de ejecutarla al nivel que exige una compañía grande: cadenas de aprobación largas, plazos fijos y cero margen de error. Respondo por el proyecto hasta el archivo final.
+Sé decidir qué comunica cada pieza y a quién, y sé sacarla al ritmo que exige una compañía grande: cadenas de aprobación largas, fechas que no se mueven y ningún margen de error. Respondo por el proyecto hasta el archivo final.
 
 --------------------------------------------------------------------------------
 [CV - SECCIÓN CIFRAS DE TRABAJO 2025]
@@ -149,47 +149,47 @@ Cifras destacadas:
 - 2 | días de mediana entre solicitud y entrega
 
 Nota explicativa de las cifras:
-Fuente: registro operativo del equipo de diseño, año 2025 completo. 386 solicitudes y 972 piezas, sobre 1.838 del equipo. La mediana de entrega y el 88 % de cumplimiento de plazo se calculan sobre las 183 solicitudes con fecha de entrega registrada. Las cifras de audiencia interna son estimaciones propias, no datos auditados.
+Fuente: registro operativo del equipo de diseño, año 2025 completo. 386 solicitudes y 972 piezas, sobre 1.838 del equipo. La mediana de entrega y el 88 % de cumplimiento de plazo se calculan sobre las 183 solicitudes con fecha de entrega registrada. Las cifras de audiencia interna son estimaciones propias.
 
 --------------------------------------------------------------------------------
 [CV - SECCIÓN EXPERIENCIA]
 Ceja: Experiencia
-Titular H2: Veintitrés años, tres empleadores.
+Titular H2: Veinte años, cuatro casas.
 
 Experiencia 1:
 - Periodo: May 2026 — hoy (En curso)
 - Cargo: Diseñador de comunicación corporativa, independiente
 - Empresa y ciudad: Nano Estudio Gráfico · Medellín
-- Descripción: Servicios de diseño corporativo para empresas, agencias y consultoras: campañas de cultura y público interno, informes institucionales y de sostenibilidad, sistemas de identidad y campañas de marca. Acompañamiento continuo, proyecto cerrado o ejecución para terceros.
+- Descripción: Diseño corporativo para empresas, agencias y consultoras: campañas de cultura y público interno, informes institucionales y de sostenibilidad, sistemas de identidad y campañas de marca. Acompañamiento continuo, proyecto cerrado o ejecución para terceros.
 
 Experiencia 2:
 - Periodo: Ene 2024 — Abr 2026 (2 años 4 meses)
 - Cargo: Especialista de Contenidos Corporativos
 - Empresa y modalidad: Tigo Colombia · Híbrido
-- Descripción Párrafo 1: Estrategia visual y comunicación de la cultura organizacional para once áreas de negocio, de Gente y Presidencia a B2B, Marketing y Sostenibilidad. Sistemas de identidad visual, iconografía corporativa y look & feel de iniciativas de marca.
-- Descripción Párrafo 2: Campañas de comunicación interna, clima laboral, bienestar, onboarding, newsletters y presentaciones ejecutivas —incluido trabajo directo con Presidencia—. En digital: landing pages, plantillas de email e informes de gestión en versión web navegable. Implantación de flujos de diseño asistidos por IA para acortar los tiempos de producción.
+- Descripción Párrafo 1: Estrategia visual y comunicación de la cultura organizacional para once áreas de negocio, entre ellas Gente, Presidencia, B2B, Marketing y Sostenibilidad. Sistemas de identidad visual, iconografía corporativa y look & feel de iniciativas de marca.
+- Descripción Párrafo 2: Campañas de comunicación interna, clima laboral, bienestar, onboarding, newsletters y presentaciones ejecutivas, con trabajo directo con Presidencia. En digital: landing pages, plantillas de email e informes de gestión en versión web navegable. Monté flujos de diseño asistidos por IA para recortar los tiempos de producción.
 - Áreas clave / Etiquetas: Identidad corporativa · Comunicación interna · Informes anuales · Email & landings · Presentaciones ejecutivas
 
 Experiencia 3:
-- Periodo: Jun 2019 — Ene 2024 (4 años 7 meses)
+- Periodo: Jun. 2019 — Ene. 2024 (4 años 7 meses)
 - Cargo: Especialista Multimedia
 - Empresa y ciudad: Tigo Colombia (antes UNE EPM) · Medellín
-- Descripción: Comunicación visual corporativa dirigida al público interno, con foco en la consolidación de la cultura y el ambiente laboral durante la integración de las dos compañías.
+- Descripción: Comunicación visual corporativa para el público interno, con foco en la cultura y el ambiente laboral mientras las dos compañías se integraban.
 
 Experiencia 4:
-- Periodo: Nov 2009 — Jun 2019 (9 años 8 meses)
+- Periodo: Nov. 2009 — Jun. 2019 (9 años 8 meses)
 - Cargo: Analista de Servicios de Comunicaciones
 - Empresa y ciudad: UNE EPM Telecomunicaciones · Medellín
-- Descripción: Estrategias de comunicación y desarrollo de proyectos gráficos para la organización. Entre las piezas del período, el infográfico de estructura organizacional de UNE.
+- Descripción: Estrategias de comunicación y proyectos gráficos para la organización. De ese período sale, entre otras piezas, el infográfico de estructura organizacional de UNE.
 
 Experiencia 5:
-- Periodo: Feb 2008 — Oct 2009 (1 año 9 meses)
+- Periodo: Feb. 2008 — Oct. 2009 (1 año 9 meses)
 - Cargo: Diseñador gráfico · analista de marca
 - Empresa y ciudad: Eficacia · Medellín
 - Descripción: Aplicación de marca en los inmuebles de UNE Telecomunicaciones y apoyo gráfico a las estrategias publicitarias de la compañía.
 
 Experiencia 6:
-- Periodo: Feb 2003 — Nov 2004 (1 año 10 meses)
+- Periodo: Feb. 2003 — Nov. 2004 (1 año 10 meses)
 - Cargo: Diseñador gráfico institucional
 - Empresa y ciudad: Institución Universitaria Pascual Bravo · Medellín
 - Descripción: Comunicación visual institucional: editorial, señalética y piezas promocionales.
@@ -197,7 +197,7 @@ Experiencia 6:
 --------------------------------------------------------------------------------
 [CV - SECCIÓN FORMACIÓN Y HERRAMIENTAS]
 Ceja: Formación
-Titular H2: Del documento impreso a la experiencia digital.
+Titular H2: Aprendí el oficio en papel y lo terminé de aprender en pantalla.
 
 Formación académica:
 - 2018 — 2019: Máster en Diseño Web Multidispositivo · ESdesign, Escuela Superior de Diseño de Barcelona

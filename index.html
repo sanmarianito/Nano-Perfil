@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mariano González — Diseño de comunicación corporativa</title>
+  <title>Mariano González — Diseño visual de comunicación corporativa</title>
 
   <!-- SEO básico -->
   <meta name="description"
-    content="Mariano González — Diseño de comunicación corporativa. Cultura, reputación y marca. 23 años de trayectoria, 16 dentro de una multinacional de telecomunicaciones. Medellín, Colombia.">
+    content="Diseño de comunicación corporativa en Medellín: cultura, reputación y marca. 20 años de oficio, 16 en una multinacional de telecomunicaciones.">
   <meta name="keywords"
     content="diseño corporativo, comunicación corporativa, diseño de marca, identidad corporativa, informes anuales, diseño editorial, Medellín, Colombia, Mariano González, Nano">
   <meta name="author" content="Mariano González">
@@ -17,11 +17,11 @@
   <link rel="canonical" href="https://sanmarianito.github.io/Nano-Perfil/">
 
   <!-- Open Graph / Facebook / LinkedIn / WhatsApp -->
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="profile">
   <meta property="og:site_name" content="Nano. — Mariano González">
   <meta property="og:title" content="Mariano González — Diseño de comunicación corporativa">
   <meta property="og:description"
-    content="Traduzco la estrategia, la cultura y la reputación de una empresa en piezas que su gente entiende y su mercado reconoce.">
+    content="Convierto lo que una empresa quiere decir en piezas que su gente entiende y su mercado reconoce.">
   <meta property="og:image" content="https://sanmarianito.github.io/Nano-Perfil/og-image.jpg">
   <meta property="og:image:secure_url" content="https://sanmarianito.github.io/Nano-Perfil/og-image.jpg">
   <meta property="og:image:type" content="image/jpeg">
@@ -37,7 +37,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Mariano González — Diseño de comunicación corporativa">
   <meta name="twitter:description"
-    content="Traduzco la estrategia, la cultura y la reputación de una empresa en piezas que su gente entiende y su mercado reconoce.">
+    content="Convierto lo que una empresa quiere decir en piezas que su gente entiende y su mercado reconoce.">
   <meta name="twitter:image" content="https://sanmarianito.github.io/Nano-Perfil/og-image.jpg">
   <meta name="twitter:image:alt" content="Nano. — Mariano González, Diseño de comunicación corporativa">
 
@@ -51,6 +51,9 @@
   <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-dark.png">
   <link rel="manifest" href="site.webmanifest">
 
+  <!-- Recursos críticos -->
+  <link rel="preload" as="image" href="retrato.webp" fetchpriority="high">
+
   <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -63,31 +66,86 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Mariano González",
-    "alternateName": "Nano",
-    "jobTitle": "Diseñador de comunicación corporativa",
-    "description": "Traduzco la estrategia, la cultura y la reputación de una empresa en piezas que su gente entiende y su mercado reconoce.",
-    "url": "https://sanmarianito.github.io/Nano-Perfil/",
-    "image": "https://sanmarianito.github.io/Nano-Perfil/og-image.png",
-    "email": "mailto:sanmarianito@gmail.com",
-    "telephone": "+573006956610",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Medellín",
-      "addressCountry": "CO"
-    },
-    "sameAs": [
-      "https://www.behance.net/SanMarianito_G",
-      "https://www.linkedin.com/in/mariano-nano"
-    ],
-    "knowsAbout": [
-      "Diseño corporativo",
-      "Comunicación corporativa",
-      "Identidad de marca",
-      "Informes anuales",
-      "Diseño editorial",
-      "Cultura organizacional"
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://sanmarianito.github.io/Nano-Perfil/#website",
+        "url": "https://sanmarianito.github.io/Nano-Perfil/",
+        "name": "Nano. — Mariano González",
+        "inLanguage": "es-CO",
+        "publisher": { "@id": "https://sanmarianito.github.io/Nano-Perfil/#persona" }
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "https://sanmarianito.github.io/Nano-Perfil/#perfil",
+        "url": "https://sanmarianito.github.io/Nano-Perfil/",
+        "name": "Mariano González — Diseño visual de comunicación corporativa",
+        "isPartOf": { "@id": "https://sanmarianito.github.io/Nano-Perfil/#website" },
+        "inLanguage": "es-CO",
+        "primaryImageOfPage": "https://sanmarianito.github.io/Nano-Perfil/og-image.jpg",
+        "mainEntity": { "@id": "https://sanmarianito.github.io/Nano-Perfil/#persona" }
+      },
+      {
+        "@type": "Person",
+        "@id": "https://sanmarianito.github.io/Nano-Perfil/#persona",
+        "name": "Mariano González",
+        "alternateName": "Nano",
+        "jobTitle": "Diseñador de comunicación corporativa",
+        "description": "Convierto lo que una empresa quiere decir en piezas que su gente entiende y su mercado reconoce.",
+        "url": "https://sanmarianito.github.io/Nano-Perfil/",
+        "image": "https://sanmarianito.github.io/Nano-Perfil/og-image.jpg",
+        "email": "mailto:sanmarianito@gmail.com",
+        "telephone": "+573006956610",
+        "nationality": { "@type": "Country", "name": "Colombia" },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Medellín",
+          "addressRegion": "Antioquia",
+          "addressCountry": "CO"
+        },
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Nano Estudio Gráfico",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Medellín",
+            "addressCountry": "CO"
+          }
+        },
+        "alumniOf": [
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "ESdesign, Escuela Superior de Diseño de Barcelona"
+          },
+          {
+            "@type": "CollegeOrUniversity",
+            "name": "Universidad Pontificia Bolivariana"
+          }
+        ],
+        "hasOccupation": {
+          "@type": "Occupation",
+          "name": "Diseñador de comunicación corporativa",
+          "occupationLocation": { "@type": "City", "name": "Medellín" },
+          "skills": "Diseño corporativo, comunicación interna, informes anuales y de sostenibilidad, identidad de marca, diseño editorial, landing pages y email marketing"
+        },
+        "knowsLanguage": [
+          { "@type": "Language", "name": "Español", "alternateName": "es" }
+        ],
+        "sameAs": [
+          "https://www.behance.net/SanMarianito_G",
+          "https://www.linkedin.com/in/mariano-nano"
+        ],
+        "knowsAbout": [
+          "Diseño corporativo",
+          "Comunicación corporativa",
+          "Identidad de marca",
+          "Informes anuales",
+          "Informes de sostenibilidad",
+          "Diseño editorial",
+          "Cultura organizacional",
+          "Comunicación interna"
+        ]
+      }
     ]
   }
   </script>
@@ -97,12 +155,12 @@
 <body>
   <div class="noise" aria-hidden="true"></div>
 
-  <div class="wrap">
+  <main class="wrap">
 
     <header class="head">
       <div>
         <div class="head__name">Mariano González</div>
-        <div class="head__role mono">Diseño de comunicación corporativa</div>
+        <div class="head__role mono">Diseño visual de comunicación corporativa</div>
       </div>
       <div class="head__place mono">
         Medellín, Colombia<br>Remoto e híbrido
@@ -114,7 +172,8 @@
        ==================================================================== -->
     <section class="hero">
       <figure class="portrait" style="margin:0">
-        <img src="retrato.webp" alt="Retrato de Mariano González">
+        <img src="retrato.webp" width="1000" height="1250" fetchpriority="high" decoding="async"
+          alt="Mariano González, diseñador de comunicación corporativa en Medellín, Colombia">
         <figcaption class="portrait__tag">Mariano González · Diseñador Gráfico · Medellín</figcaption>
       </figure>
 
@@ -127,7 +186,7 @@
         <h1 class="hero__name">Mariano<br>González</h1>
 
         <div class="hero__disciplines">
-          <i>Diseño Corporativo</i><span aria-hidden="true">·</span>
+          <i>Diseño Visual Corporativo</i><span aria-hidden="true">·</span>
           <i>Cultura</i><span aria-hidden="true">·</span>
           <i>Reputación</i><span aria-hidden="true">·</span>
           <i>Marca</i><span aria-hidden="true">·</span>
@@ -135,9 +194,9 @@
         </div>
 
         <p class="hero__lead">
-          Traduzco la estrategia, la cultura y la reputación de una empresa en
-          contenidos visuales  que su gente entiende y su mercado reconoce. 20 años de
-          trayectoria, 16 de ellos dentro de una multinacional de telecomunicaciones.
+          Convierto la estrategia y la cultura de una empresa en piezas que su
+          gente entiende y su mercado reconoce. 20 años de oficio, 16 de ellos
+          dentro de una multinacional de telecomunicaciones.
         </p>
 
         <div class="hero__links">
@@ -158,58 +217,30 @@
     </section>
 
     <!-- ====================================================================
-       Cifras — registro verificado 2025
-       ==================================================================== -->
-    <!--  <header class="figures-head">
-    <h2 class="figures-title" id="cifras-2025">Dimensi&oacute;n del trabajo en 2025</h2>
-    <span class="figures-source">Registro verificado &middot; 386 solicitudes en 49 semanas</span>
-  </header>
-
-  <section class="figures" aria-labelledby="cifras-2025">
-    <div class="fig">
-      <div class="fig__value">11</div>
-      <div class="fig__label">áreas de negocio atendidas en 2025</div>
-    </div>
-    <div class="fig">
-      <div class="fig__value" style="--fig-color:var(--accent-ci)">+4.000</div>
-      <div class="fig__label">empleados alcanzados por las campañas</div>
-    </div>
-    <div class="fig">
-      <div class="fig__value" style="--fig-color:var(--accent)">53<span style="font-size:.5em"> %</span></div>
-      <div class="fig__label">del volumen del equipo de diseño</div>
-    </div>
-    <div class="fig">
-      <div class="fig__value" style="--fig-color:var(--accent-dg)">2</div>
-      <div class="fig__label">días de mediana entre solicitud y entrega</div>
-    </div>
-  </section> -->
-
-    <!-- ====================================================================
        Perfil
        ==================================================================== -->
     <section class="section split">
       <div>
         <div class="eyebrow">Perfil</div>
-        <h2 class="h2">El diseño no es decoración. Es cómo se explica la empresa.</h2>
+        <h2 class="h2">El diseño es la forma en que una empresa se explica.</h2>
       </div>
 
       <div>
         <div class="prose">
           <p>
-            Durante 16 años fui responsable de la comunicación visual corporativa
-            de una multinacional de telecomunicaciones en Colombia. Cubrí los tres
-            frentes que casi nunca coinciden en un mismo perfil: llevar la
-            estrategia y la cultura a una planta de más de 4.000 empleados,
-            sostener la reputación institucional ante públicos externos
-            —incluidos los informes anuales y de sostenibilidad— y trabajar con el
-            equipo de marca en las campañas comerciales de producto.
+            Durante 16 años llevé la comunicación visual corporativa de una
+            multinacional de telecomunicaciones en Colombia. Ahí hice tres cosas
+            que rara vez quedan en manos de la misma persona: bajar la estrategia
+            y la cultura a una planta de más de 4.000 empleados repartidos por
+            todo el país, sostener la reputación institucional ante públicos
+            externos (ahí entran los informes anuales y de sostenibilidad) y
+            acompañar al equipo de marca en las campañas comerciales de producto.
           </p>
           <p>
-            Lo que ofrezco no es una lista de piezas: es <strong>criterio para
-              decidir qué debe comunicar cada una y a quién</strong>, más la
-            capacidad de ejecutarla al nivel que exige una compañía grande
-            —cadenas de aprobación largas, plazos fijos y cero margen de error—.
-            Respondo por el proyecto hasta el archivo final.
+            Sé decidir <strong>qué comunica cada pieza y a quién</strong>, y sé
+            sacarla al ritmo que exige una compañía grande: cadenas de aprobación
+            largas, fechas que no se mueven y ningún margen de error. Respondo por
+            el proyecto hasta el archivo final.
           </p>
         </div>
 
@@ -239,11 +270,12 @@
       <div class="split">
         <div>
           <div class="eyebrow" style="color:var(--accent-ci)">Servicios</div>
-          <h2 class="h2">Tres frentes, una sola lógica.</h2>
+          <h2 class="h2">Tres frentes que se piensan juntos.</h2>
         </div>
         <p class="prose" style="align-self:end;margin:0;color:var(--text-muted)">
-          Cada frente resuelve un problema distinto y lo compra un área distinta.
-          Trabajarlos por separado es lo que rompe la coherencia de una compañía.
+          Cada frente resuelve un problema distinto y lo contrata un área
+          distinta. Cuando cada uno va por su lado, la empresa termina hablando
+          con tres voces.
         </p>
       </div>
 
@@ -258,8 +290,8 @@
             <p class="front__desc">
               Campañas de cultura, transformación y gestión del cambio; clima y
               bienestar; onboarding; newsletters internos y presentaciones
-              ejecutivas para comité y junta. Que la estrategia llegue a toda la
-              organización y se entienda.
+              ejecutivas para comités y junta. Para que la estrategia llegue a
+              toda la organización y se entienda.
             </p>
             <div class="front__buyers">Comunicación interna · Gestión humana</div>
           </div>
@@ -274,10 +306,10 @@
             <p class="front__desc">
               Informes anuales, de gestión y de sostenibilidad, en documento y en
               versión web navegable. Sistemas de identidad corporativa, manuales
-              de marca, iconografía y lineamientos que sostienen la coherencia
-              ante públicos externos.
+              de marca, iconografía y lineamientos para que todo lo que sale de
+              la empresa se reconozca como suyo.
             </p>
-            <div class="front__buyers">Comunicaciones · Sostenibilidad · Secretaría General</div>
+            <div class="front__buyers">Comunicaciones · Sostenibilidad · Secretaría General · Gobierno Corporativo</div>
           </div>
         </article>
 
@@ -290,10 +322,9 @@
             <p class="front__desc">
               Campañas comerciales junto a equipos de marca: concepto y key
               visual, adaptación multicanal, social media, landing pages y email
-              marketing. Del documento impreso a la experiencia digital sin
-              intermediarios.
+              marketing. Del archivo para imprenta al HTML, sin intermediarios.
             </p>
-            <div class="front__buyers">Marca · Mercadeo · Producto</div>
+            <div class="front__buyers">Marca · Mercadeo · Producto · Negocio</div>
           </div>
         </article>
 
@@ -335,7 +366,7 @@
       </div>
     </section>
 
-  </div>
+  </main>
 
   <!-- ======================================================================
      Barra de botones
@@ -374,12 +405,12 @@
     </a>
   </nav>
 
-  <div class="wrap">
+  <footer class="wrap">
     <div class="foot">
       <span>© 2026 Mariano González</span>
-      <span>Diseño Corporativo · Cultura · Reputación · Marca</span>
+      <span>Diseño Gráfico Corporativo · Cultura · Reputación · Marca</span>
     </div>
-  </div>
+  </footer>
 </body>
 
 </html>
