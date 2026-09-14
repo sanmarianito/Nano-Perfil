@@ -75,7 +75,7 @@ Todo el texto está en `index.html` y `cv.html`, en bloques comentados: `Hero`, 
 
 Enlaces salientes en uso:
 
-- `https://www.behance.net/SanMarianito_G`
+- `https://www.behance.net/MarianoGonzalezA`
 - `https://www.linkedin.com/in/mariano-nano`
 - `https://wa.me/573006956610`
 - `mailto:sanmarianito@gmail.com`
