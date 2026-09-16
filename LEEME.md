@@ -78,7 +78,7 @@ Enlaces salientes en uso:
 - `https://www.behance.net/MarianoGonzalezA`
 - `https://www.linkedin.com/in/mariano-nano`
 - `https://wa.me/573006956610`
-- `mailto:sanmarianito@gmail.com`
+- `mailto:nano.estudiografico@gmail.com`
 
 Las cifras salen del registro verificado 2025 y van en el orden del documento de
 posicionamiento: rango → alcance → peso → confiabilidad. Las 386 solicitudes y
