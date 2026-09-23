@@ -5,17 +5,25 @@ contacto y barra de accesos a Behance, LinkedIn y WhatsApp.
 
 ## Archivos
 
-| Archivo | Qué es |
+| Ruta | Qué es |
 |---|---|
 | `index.html` | La landing de presentación. Sin JavaScript. |
 | `cv.html` | La hoja de vida completa. Enlazada desde el botón CV del hero y de la barra del pie. |
-| `style.css` | Todo el CSS: tokens, layout y componentes. |
-| `retrato.webp` | El retrato en uso. 1000×1250 (4:5), 71 KB. Derivado de `Foto.webp`. |
-| `Foto.webp` / `Foto.jpg` | Originales, 3024×4032. No los referencia la página. |
+| `tarifario.html` | Tarifario 2026. |
+| `tarjeta.html` | Tarjeta de presentación digital. |
+| `404.html`, `robots.txt`, `sitemap.xml`, `site.webmanifest`, `google….html` | Archivos que GitHub Pages y los buscadores esperan en la raíz. |
+| `css/style.css` | Todo el CSS: tokens, layout y componentes. |
+| `js/tarjeta.js` | El único JavaScript, usado por `tarjeta.html`. |
+| `img/` | Imágenes publicadas: `retrato.webp` (1000×1250, 4:5, 71 KB), `og-image.jpg` para redes, e `iconos/` con favicons y apple-touch-icon. |
+| `descargas/mariano-gonzalez.vcf` | Contacto descargable desde la tarjeta. |
+| `fuentes/fotos/` | `Foto.webp` / `Foto.jpg`, originales 3024×4032. No los referencia la página. |
+| `fuentes/cv/` | Originales del CV: `cv.ai`, el script `cv-a-ai.jsx` que lo genera y los PDF. |
+| `documentos/` | Lineamientos visuales y contenido para revisión. |
 
-`index.html`, `cv.html`, `style.css` y `retrato.webp` tienen que viajar juntos. Al abrir `index.html` con
-doble clic funciona todo salvo la tipografía de Google Fonts, que necesita
-conexión.
+Las páginas HTML se quedan en la raíz para que sus URL públicas no cambien.
+Las rutas a `css/`, `js/` e `img/` son relativas, así que la carpeta entera tiene que viajar junta.
+Al abrir `index.html` con doble clic funciona todo salvo la tipografía de
+Google Fonts, que necesita conexión.
 
 ## Sistema visual
 
@@ -41,7 +49,7 @@ Si la alojas en tu propio dominio, repón Gothiks en `index.html`:
 <link rel="stylesheet" href="https://use.typekit.net/umo1shx.css">
 ```
 
-y en el bloque `:root` de `style.css`:
+y en el bloque `:root` de `css/style.css`:
 
 ```css
 --font-display:'Gothiks',Helvetica,Arial,sans-serif;
@@ -52,7 +60,7 @@ de x, y `--fs-name` puede necesitar ajuste.
 
 ## Cambiar el retrato
 
-`retrato.webp` es un recorte centrado 4:5 de `Foto.webp`, reescalado a 1000×1250
+`img/retrato.webp` es un recorte centrado 4:5 de `fuentes/fotos/Foto.webp`, reescalado a 1000×1250
 y comprimido a calidad 80. Los 2,1 MB del original no deben ir a una página: son
 treinta veces el peso necesario para ese tamaño de visualización.
 
@@ -61,8 +69,8 @@ Para regenerarlo desde otro archivo:
 ```bash
 python3 -c "
 from PIL import Image
-im=Image.open('Foto.webp'); w,h=im.size; nh=int(w*5/4); top=(h-nh)//2
-im.crop((0,top,w,top+nh)).resize((1000,1250), Image.LANCZOS).save('retrato.webp','WEBP',quality=80,method=6)"
+im=Image.open('fuentes/fotos/Foto.webp'); w,h=im.size; nh=int(w*5/4); top=(h-nh)//2
+im.crop((0,top,w,top+nh)).resize((1000,1250), Image.LANCZOS).save('img/retrato.webp','WEBP',quality=80,method=6)"
 ```
 
 El CSS aplica `filter:grayscale(1)` y un velo de acento en degradado sobre la

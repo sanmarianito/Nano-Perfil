@@ -84,6 +84,9 @@ a{color:inherit}
 
 .rule{border:0;border-top:1px solid var(--line-soft);margin:0}
 
+/* Íconos de Material Symbols dentro de una línea de texto. */
+.icon{font-size:1.1em;vertical-align:-.2em}
+
 /* ==========================================================================
    Cabecera
    ========================================================================== */
@@ -240,7 +243,7 @@ a{color:inherit}
   outline:none;
 }
 .pill-link__arrow{
-  font-size:13px;
+  font-size:16px;
   line-height:1;
   color:var(--pill-color);
   transition:color var(--t-mid) var(--ease-out),transform var(--t-mid) var(--ease-out);
@@ -547,8 +550,7 @@ a.contact__item:hover .contact__val{color:var(--accent)}
 }
 .bar__btn:hover .bar__sub,.bar__btn:focus-visible .bar__sub{color:rgb(14 14 16 / .68)}
 .bar__arrow{
-  font-family:var(--font-mono);
-  font-size:18px;
+  font-size:20px;
   color:var(--btn-color);
   transition:color var(--t-mid) var(--ease-out),transform var(--t-mid) var(--ease-out);
 }
@@ -594,6 +596,7 @@ a.contact__item:hover .contact__val{color:var(--accent)}
   transition:color var(--t-mid) var(--ease-out);
 }
 .backlink:hover,.backlink:focus-visible{color:var(--accent);outline:none}
+.backlink .icon{font-size:15px}
 
 .cv-hero{padding-block:clamp(34px,5vw,72px) clamp(30px,4vw,56px)}
 .cv-hero__title{
@@ -1037,6 +1040,11 @@ body.tarjeta{
   object-fit:cover;
   object-position:50% 22%;
   filter:grayscale(1) contrast(1.06);
+  transition:filter 1s var(--ease-out),opacity 1s var(--ease-out);
+}
+.card.is-open .card__photo img{
+  filter:grayscale(1) contrast(1.06) blur(6px);
+  opacity:.5;
 }
 .card__photo::after{
   content:"";
@@ -1085,6 +1093,20 @@ body.tarjeta{
   padding:6px 24px calc(24px + env(safe-area-inset-bottom));
 }
 
+/* Botones en fila: datos de contacto ocupa el resto, guardar su contenido. */
+.card__actions{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:10px;
+}
+.card__actions .btn{padding-inline:16px 18px;white-space:nowrap}
+@media (max-width:380px){
+  .card__actions .btn{padding-inline:14px;letter-spacing:.08em}
+}
+@media (max-width:340px){
+  .card__actions{grid-template-columns:1fr}
+}
+
 /* Botones */
 .btn{
   --btn-color:var(--bone);
@@ -1093,12 +1115,12 @@ body.tarjeta{
   justify-content:space-between;
   gap:12px;
   width:100%;
-  padding:16px 20px;
+  padding:12px 20px;
   border:1px solid var(--line-btn);
   border-radius:999px;
   background:transparent;
   font-family:var(--font-mono);
-  font-size:12px;
+  font-size:11px;
   letter-spacing:.14em;
   text-transform:uppercase;
   color:var(--text-strong);
@@ -1116,10 +1138,10 @@ body.tarjeta{
   outline:none;
 }
 .btn__icon{
-  font-size:14px;
+  font-size:15px;
   line-height:1;
   color:var(--btn-color);
-  transition:color var(--t-mid) var(--ease-out),transform var(--t-mid) var(--ease-out);
+  transition:color var(--t-mid) var(--ease-out),transform .9s var(--ease-out);
 }
 .btn:hover .btn__icon,.btn:focus-visible .btn__icon{color:var(--ink)}
 .btn[aria-expanded="true"] .btn__icon{transform:rotate(45deg)}
@@ -1138,7 +1160,7 @@ body.tarjeta{
 .details{
   display:grid;
   grid-template-rows:0fr;
-  transition:grid-template-rows .5s var(--ease-out);
+  transition:grid-template-rows .9s var(--ease-out);
 }
 .details > div{overflow:hidden;min-height:0}
 .card.is-open .details{grid-template-rows:1fr}
@@ -1178,8 +1200,8 @@ a.details__item:hover,a.details__item:focus-visible{background:var(--hover-row);
 
 @media (max-height:700px){
   .card__name{font-size:44px}
-  .btn{padding:14px 18px}
+  .btn{padding-block:10px}
 }
 @media (prefers-reduced-motion:reduce){
-  .details,.btn,.btn__icon{transition:none}
+  .details,.btn,.btn__icon,.card__photo img{transition:none}
 }
