@@ -52,7 +52,8 @@
   <link rel="manifest" href="site.webmanifest">
 
   <!-- Recursos críticos -->
-  <link rel="preload" as="image" href="img/retrato.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="img/fondo.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="img/silueta.webp" fetchpriority="high">
 
   <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -182,8 +183,13 @@
        ==================================================================== -->
     <section class="hero">
       <figure class="portrait" style="margin:0">
-        <img src="img/retrato.webp" width="1000" height="1250" fetchpriority="high" decoding="async"
-          alt="Mariano González, diseñador gráfico de comunicación corporativa en Medellín, Colombia">
+        <!-- Retrato en dos capas: el fondo y la silueta se desplazan a distinto
+             ritmo con el giroscopio o el cursor (efecto profundidad). -->
+        <div class="depth">
+          <img class="depth__bg" src="img/fondo.webp" width="1000" height="1250" fetchpriority="high" decoding="async" alt="">
+          <img class="depth__fg" src="img/silueta.webp" width="1000" height="1250" fetchpriority="high" decoding="async"
+            alt="Mariano González, diseñador gráfico de comunicación corporativa en Medellín, Colombia">
+        </div>
         <figcaption class="portrait__tag">Mariano González · Diseñador Gráfico · Medellín</figcaption>
       </figure>
 
@@ -441,6 +447,8 @@
       <span>Diseño Gráfico Corporativo · Cultura · Reputación · Marca</span>
     </div>
   </footer>
+
+  <script src="js/profundidad.js"></script>
 </body>
 
 </html>

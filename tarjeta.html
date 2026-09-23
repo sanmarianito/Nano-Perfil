@@ -29,7 +29,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="img/iconos/favicon-dark-32.png" media="(prefers-color-scheme: dark)">
   <link rel="apple-touch-icon" sizes="180x180" href="img/iconos/apple-touch-icon-dark.png">
 
-  <link rel="preload" as="image" href="img/retrato.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="img/fondo.webp" fetchpriority="high">
+  <link rel="preload" as="image" href="img/silueta.webp" fetchpriority="high">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -47,15 +48,20 @@
 
   <main class="card" id="card">
     <figure class="card__photo">
-      <img src="img/retrato.webp" width="1000" height="1250" fetchpriority="high" decoding="async"
-        alt="Mariano González, diseñador gráfico en Medellín, Colombia">
+      <!-- Retrato en dos capas: el fondo y la silueta se desplazan a distinto
+           ritmo con el giroscopio o el cursor (efecto profundidad). -->
+      <div class="depth">
+        <img class="depth__bg" src="img/fondo.webp" width="1000" height="1250" fetchpriority="high" decoding="async" alt="">
+        <img class="depth__fg" src="img/silueta.webp" width="1000" height="1250" fetchpriority="high" decoding="async"
+          alt="Mariano González, diseñador gráfico en Medellín, Colombia">
+      </div>
       <figcaption class="card__id">
         <div class="status">
           <span class="status__dot" aria-hidden="true"></span>
           <span>Medellín · Colombia</span>
         </div>
         <h1 class="card__name">Mariano<br>González</h1>
-        <div class="card__role">Diseñador gráfico <span>·</span> Comunicación corporativa</div>
+        <div class="card__role">Diseño visual de <br>comunicación corporativa</div>
       </figcaption>
     </figure>
 
@@ -107,6 +113,7 @@
   </main>
 
   <script src="js/tarjeta.js"></script>
+  <script src="js/profundidad.js"></script>
 </body>
 
 </html>
