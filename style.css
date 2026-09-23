@@ -989,3 +989,197 @@ a.close-item:hover{background:var(--hover-row)}
 a.close-item:hover .close-item__v{color:var(--accent)}
 
 .close-actions{margin-top:clamp(24px,3vw,36px)}
+
+/* ==========================================================================
+   Tarjeta digital (tarjeta.html)
+   ========================================================================== */
+/* Tarjeta digital: un solo contenedor centrado, del tamaño de un
+   iPhone 18 Pro (402 × 874 pt). En el teléfono ocupa toda la pantalla. */
+body.tarjeta{
+  display:grid;
+  place-items:center;
+  min-height:100dvh;
+  padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
+}
+
+.card{
+  position:relative;
+  width:min(100%,402px);
+  height:min(100dvh,874px);
+  display:flex;
+  flex-direction:column;
+  background:var(--ink);
+  overflow:hidden auto;
+  overscroll-behavior:contain;
+}
+@media (min-width:440px) and (min-height:760px){
+  .card{
+    height:min(calc(100dvh - 48px),874px);
+    border:1px solid var(--line-box);
+    border-radius:28px;
+    background:var(--surface);
+  }
+}
+
+/* Foto: mismo tratamiento del retrato del hero. */
+.card__photo{
+  position:relative;
+  flex:1 1 auto;
+  min-height:220px;
+  margin:0;
+  overflow:hidden;
+}
+.card__photo img{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:50% 22%;
+  filter:grayscale(1) contrast(1.06);
+}
+.card__photo::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(180deg,rgb(255 151 38 / .10) 0%,rgb(14 14 16 / 0) 40%,rgb(14 14 16 / .92) 100%);
+}
+@media (min-width:440px) and (min-height:760px){
+  .card__photo::after{
+    background:linear-gradient(180deg,rgb(255 151 38 / .10) 0%,rgb(22 22 26 / 0) 40%,rgb(22 22 26 / .96) 100%);
+  }
+}
+
+.card__id{
+  position:absolute;
+  left:24px;
+  right:24px;
+  bottom:18px;
+  z-index:2;
+}
+.card__name{
+  margin:14px 0 0;
+  font-family:var(--font-display);
+  font-weight:800;
+  font-variation-settings:'wdth' 92,'wght' 800;
+  font-size:52px;
+  line-height:.88;
+  letter-spacing:-.03em;
+  color:var(--text);
+}
+.card__role{
+  margin-top:14px;
+  font-family:var(--font-mono);
+  font-size:11px;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+  color:var(--text-muted);
+}
+.card__role span{color:var(--accent)}
+
+.card__body{
+  flex:0 0 auto;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  padding:6px 24px calc(24px + env(safe-area-inset-bottom));
+}
+
+/* Botones */
+.btn{
+  --btn-color:var(--bone);
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  width:100%;
+  padding:16px 20px;
+  border:1px solid var(--line-btn);
+  border-radius:999px;
+  background:transparent;
+  font-family:var(--font-mono);
+  font-size:12px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--text-strong);
+  text-decoration:none;
+  cursor:pointer;
+  -webkit-tap-highlight-color:transparent;
+  transition:background var(--t-mid) var(--ease-out),
+             border-color var(--t-mid) var(--ease-out),
+             color var(--t-mid) var(--ease-out);
+}
+.btn:hover,.btn:focus-visible{
+  background:var(--btn-color);
+  border-color:var(--btn-color);
+  color:var(--ink);
+  outline:none;
+}
+.btn__icon{
+  font-size:14px;
+  line-height:1;
+  color:var(--btn-color);
+  transition:color var(--t-mid) var(--ease-out),transform var(--t-mid) var(--ease-out);
+}
+.btn:hover .btn__icon,.btn:focus-visible .btn__icon{color:var(--ink)}
+.btn[aria-expanded="true"] .btn__icon{transform:rotate(45deg)}
+
+.btn--save{
+  --btn-color:var(--accent);
+  background:var(--accent);
+  border-color:var(--accent);
+  color:var(--ink);
+  font-weight:500;
+}
+.btn--save .btn__icon{color:var(--ink)}
+.btn--save:hover,.btn--save:focus-visible{background:var(--bone);border-color:var(--bone)}
+
+/* Datos de contacto: se despliegan entre los dos botones. */
+.details{
+  display:grid;
+  grid-template-rows:0fr;
+  transition:grid-template-rows .5s var(--ease-out);
+}
+.details > div{overflow:hidden;min-height:0}
+.card.is-open .details{grid-template-rows:1fr}
+
+.details__list{
+  margin:0;
+  padding:4px 0 8px;
+  list-style:none;
+}
+.details__item{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:16px;
+  padding:13px 4px;
+  border-bottom:1px solid var(--line-soft);
+  text-decoration:none;
+  transition:background var(--t-mid) var(--ease-out);
+}
+a.details__item:hover,a.details__item:focus-visible{background:var(--hover-row);outline:none}
+.details__key{
+  flex:0 0 auto;
+  font-family:var(--font-mono);
+  font-size:10.5px;
+  letter-spacing:.14em;
+  text-transform:uppercase;
+  color:var(--text-dim);
+}
+.details__val{
+  min-width:0;
+  font-size:15px;
+  line-height:1.35;
+  text-align:right;
+  color:var(--text-strong);
+  overflow-wrap:anywhere;
+}
+
+@media (max-height:700px){
+  .card__name{font-size:44px}
+  .btn{padding:14px 18px}
+}
+@media (prefers-reduced-motion:reduce){
+  .details,.btn,.btn__icon{transition:none}
+}

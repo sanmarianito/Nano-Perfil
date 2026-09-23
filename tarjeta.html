@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mariano González — Tarjeta de contacto</title>
+
+  <meta name="description" content="Tarjeta de contacto digital de Mariano González, diseñador gráfico de comunicación corporativa en Medellín.">
+  <meta name="author" content="Mariano González">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#0E0E10">
+  <link rel="canonical" href="https://sanmarianito.github.io/Nano-Perfil/tarjeta.html">
+
+  <!-- Open Graph / WhatsApp -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Nano. — Mariano González">
+  <meta property="og:title" content="Mariano González — Tarjeta de contacto">
+  <meta property="og:description" content="Diseñador gráfico · Comunicación corporativa. Guarda mis datos de contacto.">
+  <meta property="og:image" content="https://sanmarianito.github.io/Nano-Perfil/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:url" content="https://sanmarianito.github.io/Nano-Perfil/tarjeta.html">
+  <meta property="og:locale" content="es_CO">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicons & App Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-light-32.png" media="(prefers-color-scheme: light)">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-dark-32.png" media="(prefers-color-scheme: dark)">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-dark.png">
+
+  <link rel="preload" as="image" href="retrato.webp" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,300..900&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="tarjeta">
+  <div class="noise" aria-hidden="true"></div>
+
+  <main class="card" id="card">
+    <figure class="card__photo">
+      <img src="retrato.webp" width="1000" height="1250" fetchpriority="high" decoding="async"
+        alt="Mariano González, diseñador gráfico en Medellín, Colombia">
+      <figcaption class="card__id">
+        <div class="status">
+          <span class="status__dot" aria-hidden="true"></span>
+          <span>Medellín · Colombia</span>
+        </div>
+        <h1 class="card__name">Mariano<br>González</h1>
+        <div class="card__role">Diseñador gráfico <span>·</span> Comunicación corporativa</div>
+      </figcaption>
+    </figure>
+
+    <div class="card__body">
+      <button class="btn" type="button" id="toggle" aria-expanded="false" aria-controls="details">
+        <span>Datos de contacto</span>
+        <span class="btn__icon" aria-hidden="true">+</span>
+      </button>
+
+      <div class="details" id="details">
+        <div>
+          <ul class="details__list">
+            <li><a class="details__item" href="tel:+573006956610">
+              <span class="details__key">Teléfono</span>
+              <span class="details__val">+57 300 695 6610</span>
+            </a></li>
+            <li><a class="details__item" href="https://wa.me/573006956610">
+              <span class="details__key">WhatsApp</span>
+              <span class="details__val">Escribir ↗</span>
+            </a></li>
+            <li><a class="details__item" href="mailto:nano.estudiografico@gmail.com">
+              <span class="details__key">Correo</span>
+              <span class="details__val">nano.estudiografico@gmail.com</span>
+            </a></li>
+            <li><a class="details__item" href="https://www.linkedin.com/in/mariano-nano">
+              <span class="details__key">LinkedIn</span>
+              <span class="details__val">in/mariano-nano ↗</span>
+            </a></li>
+            <li><a class="details__item" href="https://www.behance.net/MarianoGonzalezA">
+              <span class="details__key">Portafolio</span>
+              <span class="details__val">Behance ↗</span>
+            </a></li>
+            <li><a class="details__item" href="https://sanmarianito.github.io/Nano-Perfil/">
+              <span class="details__key">Web</span>
+              <span class="details__val">Perfil completo →</span>
+            </a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- iOS abre el .vcf con la vista "Añadir contacto"; Android lo descarga
+           y lo importa en Contactos al tocarlo. -->
+      <a class="btn btn--save" href="mariano-gonzalez.vcf">
+        <span>Guardar contacto</span>
+        <span class="btn__icon" aria-hidden="true">↓</span>
+      </a>
+    </div>
+  </main>
+
+  <script src="tarjeta.js"></script>
+</body>
+
+</html>
