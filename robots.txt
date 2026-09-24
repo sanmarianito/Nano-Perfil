@@ -1,8 +1,12 @@
 User-agent: *
 Allow: /
 
-# Rastreadores de buscadores con IA (AI Overviews, ChatGPT, Perplexity, Copilot)
+# Rastreadores de buscadores y asistentes con IA
+# (AI Overviews, ChatGPT, Claude, Perplexity, Copilot, Apple Intelligence)
 User-agent: Google-Extended
+Allow: /
+
+User-agent: GPTBot
 Allow: /
 
 User-agent: OAI-SearchBot
@@ -11,10 +15,19 @@ Allow: /
 User-agent: ChatGPT-User
 Allow: /
 
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: ClaudeBot
+User-agent: Applebot-Extended
 Allow: /
 
 Sitemap: https://sanmarianito.github.io/Nano-Perfil/sitemap.xml

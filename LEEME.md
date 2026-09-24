@@ -12,6 +12,9 @@ contacto y barra de accesos a Behance, LinkedIn y WhatsApp.
 | `tarifario.html` | Tarifario 2026. |
 | `tarjeta.html` | Tarjeta de presentación digital. |
 | `404.html`, `robots.txt`, `sitemap.xml`, `site.webmanifest`, `google….html` | Archivos que GitHub Pages y los buscadores esperan en la raíz. |
+| `llms.txt` | Resumen factual del perfil para asistentes de IA. |
+| `f156e7cf….txt` | Clave de IndexNow. No borrar. Se usa con `documentos/seo/indexnow.sh` después de cada publicación. |
+| `documentos/seo/` | Plan SEO y el script de IndexNow. |
 | `css/style.css` | Todo el CSS: tokens, layout y componentes. |
 | `js/tarjeta.js` | El único JavaScript, usado por `tarjeta.html`. |
 | `img/` | Imágenes publicadas: `retrato.webp` (1000×1250, 4:5, 71 KB), `og-image.jpg` para redes, e `iconos/` con favicons y apple-touch-icon. |

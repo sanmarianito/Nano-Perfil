@@ -50,6 +50,8 @@
   <link rel="icon" type="image/png" sizes="48x48" href="img/iconos/favicon-dark-48.png" media="(prefers-color-scheme: dark)">
   <link rel="apple-touch-icon" sizes="180x180" href="img/iconos/apple-touch-icon-dark.png">
   <link rel="manifest" href="site.webmanifest">
+  <link rel="me" href="https://www.behance.net/MarianoGonzalezA">
+  <link rel="me" href="https://www.linkedin.com/in/mariano-nano">
 
   <!-- Recursos críticos -->
   <link rel="preload" as="image" href="img/fondo.webp" fetchpriority="high">
@@ -75,17 +77,23 @@
         "url": "https://sanmarianito.github.io/Nano-Perfil/",
         "name": "Nano. — Mariano González",
         "inLanguage": "es-CO",
-        "publisher": { "@id": "https://sanmarianito.github.io/Nano-Perfil/#persona" }
+        "publisher": {
+          "@id": "https://sanmarianito.github.io/Nano-Perfil/#persona"
+        }
       },
       {
         "@type": "ProfilePage",
         "@id": "https://sanmarianito.github.io/Nano-Perfil/#perfil",
         "url": "https://sanmarianito.github.io/Nano-Perfil/",
         "name": "Mariano González — Diseño visual de comunicación corporativa",
-        "isPartOf": { "@id": "https://sanmarianito.github.io/Nano-Perfil/#website" },
+        "isPartOf": {
+          "@id": "https://sanmarianito.github.io/Nano-Perfil/#website"
+        },
         "inLanguage": "es-CO",
         "primaryImageOfPage": "https://sanmarianito.github.io/Nano-Perfil/img/og-image.jpg",
-        "mainEntity": { "@id": "https://sanmarianito.github.io/Nano-Perfil/#persona" }
+        "mainEntity": {
+          "@id": "https://sanmarianito.github.io/Nano-Perfil/#persona"
+        }
       },
       {
         "@type": "Person",
@@ -102,7 +110,10 @@
         "image": "https://sanmarianito.github.io/Nano-Perfil/img/og-image.jpg",
         "email": "mailto:nano.estudiografico@gmail.com",
         "telephone": "+573006956610",
-        "nationality": { "@type": "Country", "name": "Colombia" },
+        "nationality": {
+          "@type": "Country",
+          "name": "Colombia"
+        },
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Medellín",
@@ -110,13 +121,7 @@
           "addressCountry": "CO"
         },
         "worksFor": {
-          "@type": "Organization",
-          "name": "Nano Estudio Gráfico",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Medellín",
-            "addressCountry": "CO"
-          }
+          "@id": "https://sanmarianito.github.io/Nano-Perfil/#estudio"
         },
         "alumniOf": [
           {
@@ -131,11 +136,18 @@
         "hasOccupation": {
           "@type": "Occupation",
           "name": "Diseñador de comunicación corporativa",
-          "occupationLocation": { "@type": "City", "name": "Medellín" },
+          "occupationLocation": {
+            "@type": "City",
+            "name": "Medellín"
+          },
           "skills": "Diseño gráfico, diseño gráfico corporativo, identidad de marca, comunicación interna, informes anuales y de sostenibilidad, diseño editorial, diseño web, landing pages y páginas web"
         },
         "knowsLanguage": [
-          { "@type": "Language", "name": "Español", "alternateName": "es" }
+          {
+            "@type": "Language",
+            "name": "Español",
+            "alternateName": "es"
+          }
         ],
         "sameAs": [
           "https://www.behance.net/MarianoGonzalezA",
@@ -155,7 +167,109 @@
           "Diseño editorial",
           "Cultura organizacional",
           "Comunicación interna"
+        ],
+        "hasCredential": [
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Máster",
+            "name": "Máster en Diseño Web Multidispositivo",
+            "educationalLevel": "Postgrado",
+            "recognizedBy": {
+              "@type": "CollegeOrUniversity",
+              "name": "ESdesign, Escuela Superior de Diseño de Barcelona"
+            },
+            "dateCreated": "2019"
+          },
+          {
+            "@type": "EducationalOccupationalCredential",
+            "credentialCategory": "Pregrado",
+            "name": "Diseñador Gráfico, profesional universitario",
+            "educationalLevel": "Pregrado",
+            "recognizedBy": {
+              "@type": "CollegeOrUniversity",
+              "name": "Universidad Pontificia Bolivariana"
+            },
+            "dateCreated": "2006"
+          }
         ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://sanmarianito.github.io/Nano-Perfil/#estudio",
+        "name": "Nano Estudio Gráfico",
+        "alternateName": "Nano.",
+        "url": "https://sanmarianito.github.io/Nano-Perfil/",
+        "logo": "https://sanmarianito.github.io/Nano-Perfil/img/iconos/favicon-dark-512.png",
+        "email": "mailto:nano.estudiografico@gmail.com",
+        "telephone": "+573006956610",
+        "founder": {
+          "@id": "https://sanmarianito.github.io/Nano-Perfil/#persona"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Medellín",
+          "addressRegion": "Antioquia",
+          "addressCountry": "CO"
+        },
+        "areaServed": {
+          "@type": "Country",
+          "name": "Colombia"
+        },
+        "knowsLanguage": "es",
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Diseño visual de comunicación corporativa",
+          "itemListElement": [
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Cultura y público interno",
+                "serviceType": "Diseño de comunicación interna",
+                "description": "Campañas de cultura, transformación y gestión del cambio; clima y bienestar; onboarding; newsletters internos y presentaciones ejecutivas para comités y junta.",
+                "provider": {
+                  "@id": "https://sanmarianito.github.io/Nano-Perfil/#estudio"
+                },
+                "areaServed": {
+                  "@type": "Country",
+                  "name": "Colombia"
+                }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Reputación e institucional",
+                "serviceType": "Diseño de informes corporativos e identidad corporativa",
+                "description": "Informes anuales, de gestión y de sostenibilidad, en documento y en versión web navegable. Sistemas de identidad corporativa, manuales de marca, iconografía y lineamientos.",
+                "provider": {
+                  "@id": "https://sanmarianito.github.io/Nano-Perfil/#estudio"
+                },
+                "areaServed": {
+                  "@type": "Country",
+                  "name": "Colombia"
+                }
+              }
+            },
+            {
+              "@type": "Offer",
+              "itemOffered": {
+                "@type": "Service",
+                "name": "Marca y mercadeo",
+                "serviceType": "Diseño de campañas, landing pages y email marketing",
+                "description": "Campañas comerciales junto a equipos de marca: concepto y key visual, adaptación multicanal, social media, landing pages y email marketing.",
+                "provider": {
+                  "@id": "https://sanmarianito.github.io/Nano-Perfil/#estudio"
+                },
+                "areaServed": {
+                  "@type": "Country",
+                  "name": "Colombia"
+                }
+              }
+            }
+          ]
+        }
       }
     ]
   }
