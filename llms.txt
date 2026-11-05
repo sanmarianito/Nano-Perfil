@@ -16,7 +16,7 @@
 
 ## Perfil y portafolio
 
-- [Perfil](https://sanmarianito.github.io/Nano-Perfil/): presentación, servicios y contacto.
+- [Nano Estudio Gráfico](https://www.nanoestudiografico.com/): sitio principal, servicios y contacto.
 - [Hoja de vida](https://sanmarianito.github.io/Nano-Perfil/cv.html): trayectoria completa.
 - [Portafolio en Behance](https://www.behance.net/MarianoGonzalezA): casos y proyectos.
 - [LinkedIn](https://www.linkedin.com/in/mariano-nano): trayectoria y contacto.
