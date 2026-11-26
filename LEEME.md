@@ -11,7 +11,7 @@ contacto y barra de accesos a Behance, LinkedIn y WhatsApp.
 | `cv.html` | La hoja de vida completa. Enlazada desde el botón CV del hero y de la barra del pie. |
 | `tarifario.html` | Tarifario 2026. |
 | `tarjeta.html` | Tarjeta de presentación digital. |
-| `404.html`, `robots.txt`, `sitemap.xml`, `site.webmanifest`, `google….html` | Archivos que GitHub Pages y los buscadores esperan en la raíz. |
+| `404.html`, `robots.txt`, `site.webmanifest`, `google….html` | Archivos que GitHub Pages y los buscadores esperan en la raíz. |
 | `llms.txt` | Resumen factual del perfil para asistentes de IA. |
 | `f156e7cf….txt` | Clave de IndexNow. No borrar. Se usa con `documentos/seo/indexnow.sh` después de cada publicación. |
 | `documentos/seo/` | Plan SEO y el script de IndexNow. |

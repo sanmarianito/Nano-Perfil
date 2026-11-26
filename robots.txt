@@ -29,5 +29,3 @@ Allow: /
 
 User-agent: Applebot-Extended
 Allow: /
-
-Sitemap: https://sanmarianito.github.io/Nano-Perfil/sitemap.xml
